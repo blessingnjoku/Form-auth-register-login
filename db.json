@@ -1,19 +1,24 @@
 {
-  "posts": [
+  "User": [
     {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
+      "username": "Bb",
+      "name": "Blessing",
+      "email": "blessing@gmail.com",
+      "place": "Abuja",
+      "gender": "female",
+      "password": "123456",
+      "address": "usa",
+      "id": 1
+    },
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "username": "Andrewmark",
+      "name": "Andrew",
+      "email": "andrew@gmail.com",
+      "place": "Abuja",
+      "gender": "male",
+      "password": "1234",
+      "address": "usa",
+      "id": 2
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }
