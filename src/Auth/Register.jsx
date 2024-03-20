@@ -1,6 +1,6 @@
 import axios from 'axios'
 import React, { useState } from 'react'
-import { useNavigate } from 'react-router-dom'
+import { useNavigate, Link } from 'react-router-dom'
 
 const Register = () => {
   const [username, setUsername] = useState('')
@@ -63,7 +63,10 @@ let navigate = useNavigate()
     <input className='border-4 ml-3 p-1' type="password"  placeholder='enter password' value={password} onChange={(e)=>setPassword(e.target.value)} required/><br/><br/>
 
     <button className='p-3 max-w-sm mr-8 bg-black text-white rounded-xl shadow-lg  items-center space-x-4'>Submit</button>
+    <Link to='/login'>
     <button  className='p-3 max-w-sm  bg-black text-white rounded-xl shadow-lg items-center space-x-4'>Login</button>
+    </Link>
+   
   </form>
 
      
